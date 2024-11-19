@@ -29,4 +29,11 @@
 
 }
 
+/* swiper navigaton arrow stlye */
+
+.swiper-button-next::after,
+.swiper-button-next::after {
+  @apply text-primary !text-[2rem];
+}
+
 

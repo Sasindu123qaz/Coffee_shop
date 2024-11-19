@@ -1,4 +1,6 @@
 "use client";
+import OpeningHours from "@/components/OpeningHours";
+import Testimonials from "@/components/Testimonials";
 import Menu from "@/components/Menu";
 import About from "@/components/About";
 import Explore from "@/components/Explore";
@@ -21,8 +23,10 @@ const Home = () => {
       <Explore />
       <About />
       <Menu />
+      <OpeningHours />
+      <Testimonials />
       {/* tempory div */}
-      <div className="h-[4000px]"></div>
+      {/* <div className="h-[4000px]"></div> */} 
     </div> 
     );
 };
